@@ -1,0 +1,2 @@
+arsitektur,params_M,accuracy,precision_macro,recall_macro,f1_macro,train_time_min,infer_ms_per_image
+efficientnet_b0,4.05,0.9403,0.9412,0.9402,0.9394,27.0,3.16

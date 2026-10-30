@@ -1,0 +1,8 @@
+======================================================================
+Mulai   : 2026-10-30 19:15:35
+Model   : efficientnet_b0   device: mps
+Data    : train 4221 / val 905 / test 905
+Config  : epochs=8 lr=0.0001 batch=32
+Batch   : 131 per epoch
+======================================================================
+    epoch 1/8 train batch   20/131  loss 3.3403  [136s berlalu, ~752s lagi]
