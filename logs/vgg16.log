@@ -1,0 +1,59 @@
+======================================================================
+Mulai   : 2026-10-30 23:43:13
+Model   : vgg16   device: mps
+Data    : train 4219 / val 904 / test 905
+Config  : epochs=5 lr=0.0001 batch=32
+Batch   : 131 per epoch
+======================================================================
+Downloading: "https://download.pytorch.org/models/vgg16-397923af.pth" to /Users/pangeran/.cache/torch/hub/checkpoints/vgg16-397923af.pth
+    epoch 1/5 train batch   20/131  loss 3.1384  [38s berlalu, ~209s lagi]
+    epoch 1/5 train batch   40/131  loss 2.6212  [67s berlalu, ~154s lagi]
+    epoch 1/5 train batch   60/131  loss 2.2620  [98s berlalu, ~115s lagi]
+    epoch 1/5 train batch   80/131  loss 1.9879  [127s berlalu, ~81s lagi]
+    epoch 1/5 train batch  100/131  loss 1.7937  [157s berlalu, ~49s lagi]
+    epoch 1/5 train batch  120/131  loss 1.6574  [187s berlalu, ~17s lagi]
+    epoch 1/5 train batch  131/131  loss 1.5876  [203s berlalu, ~0s lagi]
+epoch  1/5  train loss 1.5876 acc 0.5460  |  val loss 0.6596 acc 0.7832 F1 0.7816  (203s+16s)  *best
+    epoch 2/5 train batch   20/131  loss 0.6928  [31s berlalu, ~173s lagi]
+    epoch 2/5 train batch   40/131  loss 0.7170  [61s berlalu, ~139s lagi]
+    epoch 2/5 train batch   60/131  loss 0.7066  [91s berlalu, ~108s lagi]
+    epoch 2/5 train batch   80/131  loss 0.6817  [121s berlalu, ~77s lagi]
+    epoch 2/5 train batch  100/131  loss 0.6802  [152s berlalu, ~47s lagi]
+    epoch 2/5 train batch  120/131  loss 0.6684  [182s berlalu, ~17s lagi]
+    epoch 2/5 train batch  131/131  loss 0.6656  [198s berlalu, ~0s lagi]
+epoch  2/5  train loss 0.6656 acc 0.8003  |  val loss 0.5223 acc 0.8407 F1 0.8344  (198s+10s)  *best
+    epoch 3/5 train batch   20/131  loss 0.4348  [30s berlalu, ~164s lagi]
+    epoch 3/5 train batch   40/131  loss 0.4066  [59s berlalu, ~135s lagi]
+    epoch 3/5 train batch   60/131  loss 0.4260  [89s berlalu, ~106s lagi]
+    epoch 3/5 train batch   80/131  loss 0.4252  [119s berlalu, ~76s lagi]
+    epoch 3/5 train batch  100/131  loss 0.4209  [148s berlalu, ~46s lagi]
+    epoch 3/5 train batch  120/131  loss 0.4232  [177s berlalu, ~16s lagi]
+    epoch 3/5 train batch  131/131  loss 0.4204  [193s berlalu, ~0s lagi]
+epoch  3/5  train loss 0.4204 acc 0.8688  |  val loss 0.3159 acc 0.8993 F1 0.8980  (193s+9s)  *best
+    epoch 4/5 train batch   20/131  loss 0.2590  [29s berlalu, ~162s lagi]
+    epoch 4/5 train batch   40/131  loss 0.2483  [59s berlalu, ~133s lagi]
+    epoch 4/5 train batch   60/131  loss 0.2394  [88s berlalu, ~104s lagi]
+    epoch 4/5 train batch   80/131  loss 0.2228  [120s berlalu, ~76s lagi]
+    epoch 4/5 train batch  100/131  loss 0.2202  [149s berlalu, ~46s lagi]
+    epoch 4/5 train batch  120/131  loss 0.2126  [179s berlalu, ~16s lagi]
+    epoch 4/5 train batch  131/131  loss 0.2181  [194s berlalu, ~0s lagi]
+epoch  4/5  train loss 0.2181 acc 0.9349  |  val loss 0.2352 acc 0.9215 F1 0.9208  (194s+9s)  *best
+    epoch 5/5 train batch   20/131  loss 0.1755  [30s berlalu, ~168s lagi]
+    epoch 5/5 train batch   40/131  loss 0.1648  [59s berlalu, ~135s lagi]
+    epoch 5/5 train batch   60/131  loss 0.1444  [88s berlalu, ~105s lagi]
+    epoch 5/5 train batch   80/131  loss 0.1474  [118s berlalu, ~75s lagi]
+    epoch 5/5 train batch  100/131  loss 0.1372  [147s berlalu, ~46s lagi]
+    epoch 5/5 train batch  120/131  loss 0.1351  [177s berlalu, ~16s lagi]
+    epoch 5/5 train batch  131/131  loss 0.1325  [193s berlalu, ~0s lagi]
+epoch  5/5  train loss 0.1325 acc 0.9575  |  val loss 0.2018 acc 0.9358 F1 0.9358  (193s+9s)  *best
+
+Menghitung metrik pada test set...
+
+======================================================================
+SELESAI 2026-10-31 00:02:27
+  test accuracy : 0.9359
+  test macro-F1 : 0.9354
+  epoch terbaik : 5 dari 5
+  waktu training: 17.3 menit
+  hasil         : /Users/pangeran/Documents/Telkom University/semester 5/visi komputer/TugasCNN/IndonesiaSpicesProject_CNN/results/vgg16
+======================================================================
