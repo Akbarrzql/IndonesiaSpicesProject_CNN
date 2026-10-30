@@ -1,0 +1,16 @@
+# Dataset (di-download via kagglehub, jangan di-commit)
+data/
+data_split/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model artifacts
+models/*.pt
+models/*.pth
+
+# macOS
+.DS_Store
