@@ -6,7 +6,7 @@ Progres ditulis ke stdout dan ke logs/<model>.log, jadi bisa dipantau dengan:
 
     tail -f logs/vgg16.log
 
-Notebook `train_efficientnet.ipynb` memakai hasil yang disimpan skrip ini,
+Notebook `train_vgg16.ipynb` memakai hasil yang disimpan skrip ini,
 sehingga tidak perlu melatih ulang hanya untuk membuat grafik.
 """
 
