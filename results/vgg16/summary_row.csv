@@ -1,0 +1,2 @@
+arsitektur,params_M,accuracy,precision_macro,recall_macro,f1_macro,train_time_min,infer_ms_per_image
+vgg16,134.39,0.9348,0.9369,0.9344,0.9342,17.3,9.35
