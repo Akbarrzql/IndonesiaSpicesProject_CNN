@@ -1,0 +1,4 @@
+pasangan,a_benar_b_salah,a_salah_b_benar,p_value,kesimpulan
+efficientnet_b0 vs resnet50,16,32,0.029304946720529308,berbeda signifikan
+efficientnet_b0 vs vgg16,-,-,,tidak diuji (test set berbeda)
+resnet50 vs vgg16,-,-,,tidak diuji (test set berbeda)
