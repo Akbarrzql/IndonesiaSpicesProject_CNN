@@ -1,0 +1,2 @@
+arsitektur,params_M,accuracy,precision_macro,recall_macro,f1_macro,train_time_min,infer_ms_per_image
+resnet50,23.57,0.958,0.9598,0.958,0.9581,5.8,3.96
